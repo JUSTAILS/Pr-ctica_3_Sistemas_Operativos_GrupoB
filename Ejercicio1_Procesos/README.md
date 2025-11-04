@@ -14,7 +14,7 @@ En este ejercicio se ejecutó un programa en C que implementó la función fork(
 
 ---
 
-### SALIDA DE La EJECUCIÓN DEL PROGRAMA
+### SALIDA DE LA EJECUCIÓN DEL PROGRAMA
 
 justinguevara@j-g:~/Practica3/Ejercicio1_Procesos$ gcc programa.c -o programa
 
