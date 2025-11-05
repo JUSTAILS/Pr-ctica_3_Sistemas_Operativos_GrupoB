@@ -1,12 +1,20 @@
+# Ejercicio 1 - Procesos
+
+## Descripción
+
 En este ejercicio se ejecutó un programa en C que implementó la función fork() para la creacion de un proceso hijo a partir de un proceso padre.
 
-Se uso getpid() y getppid() para la obtencion de los identificadores de proceso de tanto del hijo como del padre respectivamente.
+## Funcionalidad
 
-Cada proceso padre e hijo tiene su propio y unico PID.
+- Se uso getpid() y getppid() para la obtencion de los identificadores de proceso de tanto del hijo como del padre respectivamente.
 
-Se utilizó la función sleep() para evitar que los procesos terminaran simultaneamente.
+- Cada proceso padre e hijo tiene su propio y unico PID.
 
-==================== SALIDA DE La EJECUCIÓN DEL PROGRAMA ====================
+- Se utilizó la función sleep() para evitar que los procesos terminaran simultaneamente.
+
+---
+
+### SALIDA DE LA EJECUCIÓN DEL PROGRAMA
 
 justinguevara@j-g:~/Practica3/Ejercicio1_Procesos$ gcc programa.c -o programa
 
@@ -24,5 +32,4 @@ Fin del proceso 7864
 
 Fin del proceso 7863
 
-
-=============================================================================
+---
